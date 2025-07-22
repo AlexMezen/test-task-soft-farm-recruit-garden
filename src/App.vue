@@ -62,7 +62,6 @@ import { useCacheStore } from './stores/cacheStore.js'
 import { useSettlements } from './composables/useSettlements.js'
 import { useMap } from './composables/useMap.js'
 
-// Components
 import SearchInput from './components/SearchInput.vue'
 import LoadingSpinner from './components/LoadingSpinner.vue'
 import ErrorMessage from './components/ErrorMessage.vue'
@@ -239,7 +238,6 @@ export default {
   box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .app {
     flex-direction: column;
